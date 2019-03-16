@@ -32,7 +32,7 @@
     <dubbo:application name="pinyougou-web-manager"/>
 
     <!--注册中心地址-->
-    <dubbo:registry address="zookeeper://192.168.200.128:2181"/>
+    <dubbo:registry address="zookeeper://192.168.200.129:2181"/>
 
     <!--配置扫描暴露的接口位置-->
     <dubbo:annotation package="com.itheima.core.controller"/>
